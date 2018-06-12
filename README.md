@@ -3,6 +3,8 @@
 **Disclaimer**  
 This is my own study notes from of the book [Practical Data Science with Hadoop and Spark](https://www.amazon.com/Practical-Data-Science-Hadoop-Spark-ebook/dp/B01N7G1M8J) written by [Ofer Mendelevitch](https://www.google.com.eg/search?q=Ofer+Mendelevitch&stick=H4sIAAAAAAAAAOPgE-LVT9c3NEwqTys3MM7LVkJwzUss0rRkspOt9JPy87P1y4syS0pS8-LL84uyrRJLSzLyiwBgwlI7PgAAAA&sa=X&ved=0ahUKEwi2rNCr183bAhWDXMAKHQnSDLYQmxMIhwEoATAQ), [Casey Stella](https://www.google.com.eg/search?q=Casey+Stella&stick=H4sIAAAAAAAAAOPgE-LVT9c3NEwqTys3MM7LVoJzSwpKygu1ZLKTrfST8vOz9cuLMktKUvPiy_OLsq0SS0sy8osANaf7MT4AAAA&sa=X&ved=0ahUKEwi2rNCr183bAhWDXMAKHQnSDLYQmxMIiAEoAjAQ) and [Doug Eadline](https://www.google.com.eg/search?q=Doug+Eadline&stick=H4sIAAAAAAAAAOPgE-LVT9c3NEwqTys3MM7LVoJwU-KrzDIKk0u0ZLKTrfST8vOz9cuLMktKUvPiy_OLsq0SS0sy8osAnXzX1T4AAAA&sa=X&ved=0ahUKEwi2rNCr183bAhWDXMAKHQnSDLYQmxMIiQEoAzAQ).
 
+Some content and images have been added by myself from other resources (refernced), for more clarity of concepts.
+
 I used [IBM **Cloud** Virtual Servers](https://console.bluemix.net/catalog/infrastructure/virtual-server-group) for setting up the Hadoop Cluster. More setup details can be found in.......
 
 All code used for performing Hadoop operations are provided by the Book Authors and is available from their [GitHub Repo](https://github.com/ofermend/practical-data-science-with-hadoop-and-spark).
@@ -40,19 +42,37 @@ Hadoop is an open-source, Java-based, distributed computing platform built to do
 &nbsp;&nbsp;&nbsp;&nbsp;This is a distributed, scalable file system with built-in redundancy. It is further composed of many  
 &nbsp;&nbsp;&nbsp;&nbsp;nodes, each containing a regular file system. Data is stored in blocks that are replicated across many  
 &nbsp;&nbsp;&nbsp;&nbsp;nodes, this approach achieves high reliability as well as fault tolerance, which is handled at a software level.
-   
+
+<p align="center">
+  <img src="imgs/1.jpg">
+   <br>
+   <sub>Image source: <a href="http://saphanatutorial.com/hadoop-cluster-architecture-and-core-components/">http://saphanatutorial.com/hadoop-cluster-architecture-and-core-components/</a></sub>
+</p>
+
 **2. Resource Manager and Scheduler (YARN):**
 
 &nbsp;&nbsp;&nbsp;&nbsp;This component's job is to direct the allocation of compute resources by partitioning them into  
 &nbsp;&nbsp;&nbsp;&nbsp;containers that have a CPU core and an amount of memory, with the ability of adding more resources to  
 &nbsp;&nbsp;&nbsp;&nbsp;a specific container according to the processing intensity of the job. It is also responsible for  
-&nbsp;&nbsp;&nbsp;&nbsp;scheduling user applications in the most efficient way.
+&nbsp;&nbsp;&nbsp;&nbsp;scheduling user applications in the most efficient way.  
+
+<p align="center">
+  <img src="imgs/8.jpg">
+   <br>
+   <sub>Image source: <a href="https://jugnu-life.blogspot.com/2012/04/hadoop-daemons.html">https://jugnu-life.blogspot.com/2012/04/hadoop-daemons.html</a></sub>
+</p>
    
 **3. Distributed Data Processing Frameworks:**  
    - MapReduce: distributed data processing model whereby a problem can be broken down into three phases, Map, Shuffle and                     Reduce. Not suitable for highly iterative jobs.
    - Apache Tez: a lower-level software API that transfers data between multiple reduce jobs without writing the intermediate                  results to HDFS.
    - Apache Spark: an in-memory data processing engine for iterative style computing. Its basic construct is RDD (resilient                      distributed dataset), which is a set of distributed sequence of objects, often stored in RAM, with an                          implicit mechanism to support failure. It provides relational operators such as joins, union, filter and                      distinct.
-   - Apache Flink: similar to Apache Spark, but with a heavier focus on real-time stream processing.
+   - Apache Flink: similar to Apache Spark, but with a heavier focus on real-time stream processing.  
+   
+<p align="center">
+  <img src="imgs/2.jpg">
+   <br>
+   <sub>Image source: <a href="https://www.edureka.co/blog/apache-hadoop-hdfs-architecture/apache-hadoop-hdfs-architecture-edureka-3/">https://www.edureka.co/blog/apache-hadoop-hdfs-architecture/apache-hadoop-hdfs-architecture-edureka-3/</a></sub>
+</p>
 
 ---
 
@@ -104,6 +124,18 @@ __* Apache Spark:__
 &nbsp;&nbsp;&nbsp;&nbsp;graph-parallel computations. _Spark Streaming_ is availble for building scalable, fault tolerant  
 &nbsp;&nbsp;&nbsp;&nbsp;streaming applications, similar to _Apache Storm_.
 
+<p align="center">
+  <img src="imgs/6.jpg">
+   <br>
+   <sub>Image source: <a href="https://github.com/jubins/Spark-And-MLlib-Projects">https://github.com/jubins/Spark-And-MLlib-Projects</a></sub>
+</p>
+
+<p align="center">
+  <img src="imgs/7.jpg">
+   <br>
+   <sub>Image source: <a href="https://www.safaribooksonline.com/library/view/hands-on-devops/9781788471183/8932a7f8-709d-49ee-a458-244997d26ab4.xhtml">https://www.safaribooksonline.com/library/view/hands-on-devops/9781788471183/8932a7f8-709d-49ee-a458-244997d26ab4.xhtml</a></sub>
+</p>
+
 ---
 
 ## Why Use Hadoop.
@@ -115,3 +147,9 @@ __* Apache Spark:__
 - Robust scheduling and resource management.
 - Levels of distributed system abstractions.
 - Scalable creation and application of machine learning models.
+
+<p align="center">
+  <img src="imgs/4.jpg">
+   <br>
+   <sub>Image source: <a href="https://www.sas.com/en_us/insights/big-data/hadoop.html">https://www.sas.com/en_us/insights/big-data/hadoop.html</a></sub>
+</p>
