@@ -57,7 +57,7 @@ Hadoop is an open-source, Java-based, distributed computing platform built to do
 &nbsp;&nbsp;&nbsp;&nbsp;scheduling user applications in the most efficient way.  
 
 <p align="center">
-  <img src="imgs/8.jpg">
+  <img src="imgs/8.png">
    <br>
    <sub>Image source: <a href="https://jugnu-life.blogspot.com/2012/04/hadoop-daemons.html">https://jugnu-life.blogspot.com/2012/04/hadoop-daemons.html</a></sub>
 </p>
@@ -69,7 +69,7 @@ Hadoop is an open-source, Java-based, distributed computing platform built to do
    - Apache Flink: similar to Apache Spark, but with a heavier focus on real-time stream processing.  
    
 <p align="center">
-  <img src="imgs/2.jpg">
+  <img src="imgs/2.png">
    <br>
    <sub>Image source: <a href="https://www.edureka.co/blog/apache-hadoop-hdfs-architecture/apache-hadoop-hdfs-architecture-edureka-3/">https://www.edureka.co/blog/apache-hadoop-hdfs-architecture/apache-hadoop-hdfs-architecture-edureka-3/</a></sub>
 </p>
@@ -125,13 +125,13 @@ __* Apache Spark:__
 &nbsp;&nbsp;&nbsp;&nbsp;streaming applications, similar to _Apache Storm_.
 
 <p align="center">
-  <img src="imgs/6.jpg">
+  <img src="imgs/6.png">
    <br>
    <sub>Image source: <a href="https://github.com/jubins/Spark-And-MLlib-Projects">https://github.com/jubins/Spark-And-MLlib-Projects</a></sub>
 </p>
 
 <p align="center">
-  <img src="imgs/7.jpg">
+  <img src="imgs/7.png">
    <br>
    <sub>Image source: <a href="https://www.safaribooksonline.com/library/view/hands-on-devops/9781788471183/8932a7f8-709d-49ee-a458-244997d26ab4.xhtml">https://www.safaribooksonline.com/library/view/hands-on-devops/9781788471183/8932a7f8-709d-49ee-a458-244997d26ab4.xhtml</a></sub>
 </p>
@@ -149,7 +149,7 @@ __* Apache Spark:__
 - Scalable creation and application of machine learning models.
 
 <p align="center">
-  <img src="imgs/4.jpg">
+  <img src="imgs/4.png">
    <br>
    <sub>Image source: <a href="https://www.sas.com/en_us/insights/big-data/hadoop.html">https://www.sas.com/en_us/insights/big-data/hadoop.html</a></sub>
 </p>
