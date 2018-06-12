@@ -7,7 +7,7 @@ Hadoop on the other hand implements another approach where it stores the data in
 Hadoop data lakes is very good complimentary approach to data warehouses.
 
 <p align="center">
-  <img src="imgs/9.png">
+  <img src="../imgs/9.png">
    <br>
    <sub>Image source: <a href="http://www.linux-magazine.com/Issues/2015/172/Hadoop-2-and-Apache-Spark">http://www.linux-magazine.com/Issues/2015/172/Hadoop-2-and-Apache-Spark</a></sub>
 </p>
