@@ -1,5 +1,6 @@
 # Hadoop and Spark for Data Science
 
+**Disclaimer**  
 This is my own study notes from of the book [Practical Data Science with Hadoop and Spark](https://www.amazon.com/Practical-Data-Science-Hadoop-Spark-ebook/dp/B01N7G1M8J) written by [Ofer Mendelevitch](https://www.google.com.eg/search?q=Ofer+Mendelevitch&stick=H4sIAAAAAAAAAOPgE-LVT9c3NEwqTys3MM7LVkJwzUss0rRkspOt9JPy87P1y4syS0pS8-LL84uyrRJLSzLyiwBgwlI7PgAAAA&sa=X&ved=0ahUKEwi2rNCr183bAhWDXMAKHQnSDLYQmxMIhwEoATAQ), [Casey Stella](https://www.google.com.eg/search?q=Casey+Stella&stick=H4sIAAAAAAAAAOPgE-LVT9c3NEwqTys3MM7LVoJzSwpKygu1ZLKTrfST8vOz9cuLMktKUvPiy_OLsq0SS0sy8osANaf7MT4AAAA&sa=X&ved=0ahUKEwi2rNCr183bAhWDXMAKHQnSDLYQmxMIiAEoAjAQ) and [Doug Eadline](https://www.google.com.eg/search?q=Doug+Eadline&stick=H4sIAAAAAAAAAOPgE-LVT9c3NEwqTys3MM7LVoJwU-KrzDIKk0u0ZLKTrfST8vOz9cuLMktKUvPiy_OLsq0SS0sy8osAnXzX1T4AAAA&sa=X&ved=0ahUKEwi2rNCr183bAhWDXMAKHQnSDLYQmxMIiQEoAzAQ).
 
 I used [IBM **Cloud** Virtual Servers](https://console.bluemix.net/catalog/infrastructure/virtual-server-group) for setting up the Hadoop Cluster. More setup details can be found in.......
@@ -7,6 +8,24 @@ I used [IBM **Cloud** Virtual Servers](https://console.bluemix.net/catalog/infra
 All code used for performing Hadoop operations are provided by the Book Authors and is available from their [GitHub Repo](https://github.com/ofermend/practical-data-science-with-hadoop-and-spark).
 
 ---
+
+## Contents
+
+1. [What is Hadoop](#what-is-hadoop)
+2. [Components of Hadoop](#components-of-hadoop)  
+&nbsp;&nbsp;&nbsp;&nbsp;* Hadoop Distributed File System (HDFS)  
+&nbsp;&nbsp;&nbsp;&nbsp;* Resource Manager and Scheduler (YARN)  
+&nbsp;&nbsp;&nbsp;&nbsp;* Distributed Data Processing Frameworks  
+3. [Hadoop Tools for Data Science](#hadoop-tools-for-data-science)  
+&nbsp;&nbsp;&nbsp;&nbsp;* Apache Sqoop  
+&nbsp;&nbsp;&nbsp;&nbsp;* Apache Flume  
+&nbsp;&nbsp;&nbsp;&nbsp;* Apache Oozie and Apache Falcon  
+&nbsp;&nbsp;&nbsp;&nbsp;* Apache Hive  
+&nbsp;&nbsp;&nbsp;&nbsp;* Apache Pig  
+&nbsp;&nbsp;&nbsp;&nbsp;* Apache Datafu  
+&nbsp;&nbsp;&nbsp;&nbsp;* Apache Spark  
+4. [Why Use Hadoop](#why-use-hadoop)
+
 
 ## What is Hadoop.
 
